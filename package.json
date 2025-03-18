@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://ndtwork.github.io/deploy-github/",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
